@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.speech-rec {
+  border: 5px solid black; 
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.redux {
+  border: 5px solid black; 
+  padding: 20px;
+}

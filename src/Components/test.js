@@ -17,6 +17,7 @@ export default class Test extends React.Component {
             this.setState({text: event.results[0][0].transcript.toLowerCase()})
         }
     }
+
     handleClickEnd = () => {
         recognition.stop();
         console.log("stopped")
