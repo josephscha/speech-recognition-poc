@@ -2,12 +2,6 @@ import React from "react";
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 const recognition = new SpeechRecognition();
 
-// recognition.onresult = (event) => {
-//     console.log(event.results)
-//     document.querySelector("#results").textContent = event.results[0][0].transcript.toLowerCase()
-// }
-
-
 export default class Test extends React.Component {
     state = {
         myTimer: null,
